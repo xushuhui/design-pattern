@@ -6,11 +6,5 @@
  * Email: xushuhui@qq.com
  * 博客: https://www.phpst.cn
  */
-abstract class Writer{
-    protected $_file;
-    public function __construct($file)
-    {
-        $this->_file = $file;
-    }
-    abstract function write($data);
-}
+$model = new DataModel(new CsvWriter("D:\a.csv"));
+$model->export();
