@@ -6,7 +6,7 @@
  * Email: xushuhui@qq.com
  * 博客: https://www.phpst.cn
  */
-abstract class Writer{
+abstract class AbstractWriter{
     protected $_file;
     public function __construct($file)
     {

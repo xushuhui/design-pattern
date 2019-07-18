@@ -6,7 +6,7 @@
  * Email: xushuhui@qq.com
  * 博客: https://www.phpst.cn
  */
-class CsvWriter extends Writer
+class CsvWriter extends AbstractWriter
 {
     public function write($data){
         $fp = fopen($this->_file,'w');
